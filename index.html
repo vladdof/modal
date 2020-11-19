@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модальное окно</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button class="btn-open">Открыть окно</button>
+    <div class="modal closed">
+        <!-- не скролиться -->
+        <button class="btn-close">Закрыть</button>
+        <div class="modal-content" role="document">
+            <!-- скролиться -->
+            <h1>Заголовок</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam,
+                doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius
+                assumenda, cumque.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam,
+                doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius
+                assumenda, cumque.
+            </p>
+        </div>
+    </div>
+    <div class="modal-overlay closed"></div>
+    <script src="./main.js"></script>
+</body>
+</html>
